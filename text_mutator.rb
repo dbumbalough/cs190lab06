@@ -9,7 +9,9 @@ def main
   modification = ARGV[0]
 
   # store input text into text variable
-  text = ARGV[1]
+  puts "Input some text, NOW!"
+  text = $stdin.gets.chomp
+  # text = ARGV[1]
 
   # modify text accordingly
   case modification
